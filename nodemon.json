@@ -1,0 +1,13 @@
+{
+  "restartable": "rs",
+  "verbose": true,
+  "watch": [
+    "./src/**"
+  ],
+  "exec": "ts-node index.ts",
+  "ext": ".ts",
+  "env": {
+    "NODE_ENV": "development",
+    "DEBUG": "*:error,*:debug,*:info,*:warn"
+  }
+}
